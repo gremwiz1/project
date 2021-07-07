@@ -1,0 +1,13 @@
+.popup__add-product_button {
+    height: 14px;
+    width: 13px;
+    background-image: url(../../../../images/add_button_product.png);
+    background-size: cover;
+    border: none;
+    background-position: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.popup__add-product_button {
+    opacity: 0.8;
+}

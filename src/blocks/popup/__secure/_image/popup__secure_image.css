@@ -1,0 +1,6 @@
+.popup__secure_image {
+    width: 11px;
+    height: 13.2px;
+    background-image: url(../../../../images/secure.png);
+    background-size: cover;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="../src/index.css">
+</head>
+
+<body class="page">
+    <header class="header">
+    </header>
+    <main class="content">
+    </main>
+    <footer class="footer">
+    </footer>
+    <section class="popups">
+        <div class="popup popup_opened popup_edit-info">
+            <div class="popup__container">
+                <form class="popup-container" name="popup-container">
+                    <h3 class="popup__subtitle">Info</h3>
+                    <label class="popup__label">Enter your email address</label>
+                    <input class="popup__input" id="name-input" type="email" name="email"
+                        placeholder="team@checkforpatent.com" required>
+                    <h3 class="popup__subtitle">Product 1</h3>
+                    <label class="popup__label">Enter main keyword for the product</label>
+                    <input class="popup__input" type="text" name="product1"
+                        placeholder="for example, sylicon wine cup" required>
+                    <label class="popup__label">Enter link to the similar product as a reference</label>
+                    <input class="popup__input" type="link" name="link" placeholder="https://..." required>
+                    <div class="popup__add-product">
+                        <p class="popup__add-product_text">Add more products</p>
+                        <button type="button" class="popup__add-product_button"></button>
+                    </div>
+                    <p class="popup__discount">We offer discount up to 36% for multiple checks</p>
+                    <button class="popup__submit-button" type="submit">Submit and Pay 24.99 USD</button>
+                    <div class="popup__secure">
+                        <div class="popup__secure_image"></div>
+                        <p class="popup__secure_text">Secure payment with Stripe</p>
+                    </div>
+                </form>
+                <button class="popup__button-close" type="button"></button>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

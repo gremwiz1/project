@@ -1,0 +1,11 @@
+.popup__subtitle {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1C154E;
+    margin: 0 0 12px 0;
+}

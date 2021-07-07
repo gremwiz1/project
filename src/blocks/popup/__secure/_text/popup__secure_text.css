@@ -1,0 +1,11 @@
+.popup__secure_text {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0 0 0 3px;
+    color: #afb4cc;
+}

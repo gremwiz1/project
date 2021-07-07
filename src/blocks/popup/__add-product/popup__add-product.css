@@ -1,0 +1,5 @@
+.popup__add-product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}

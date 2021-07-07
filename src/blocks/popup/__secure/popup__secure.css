@@ -1,0 +1,5 @@
+.popup__secure {
+    display: flex;
+    margin-top: 11px;
+    justify-content: center;
+}
