@@ -1,0 +1,17 @@
+.checkbox_visible {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #e1e3ee;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 370px;
+    height: 60px;
+}
+.checkbox:first-of-type > .checkbox_visible {
+    border-radius: 15px 15px 0 0;
+}
+.checkbox:last-of-type > .checkbox_visible {
+    border-radius: 0 0 25px 25px;
+    border: 1.5px solid #dddfed;
+    margin-bottom: 23px;
+}

@@ -1,0 +1,11 @@
+.checkbox__text {
+    font-family: Gilroy, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 5px 12px;
+}

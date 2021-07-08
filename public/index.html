@@ -16,9 +16,9 @@
     <footer class="footer">
     </footer>
     <section class="popups">
-        <div class="popup popup_opened popup_edit-info">
+        <div class="popup popup_edit-info">
             <div class="popup__container">
-                <form class="popup-container" name="popup-container">
+                <form class="form-container" name="popup-container">
                     <h3 class="popup__subtitle">Info</h3>
                     <label class="popup__label">Enter your email address</label>
                     <input class="popup__input" id="name-input" type="email" name="email"
@@ -39,9 +39,72 @@
                         <div class="popup__secure_image"></div>
                         <p class="popup__secure_text">Secure payment with Stripe</p>
                     </div>
+                   
                 </form>
                 <button class="popup__button-close" type="button"></button>
+                
             </div>
+        </div>
+        <div class="popup popup_opened popup_adding-products">
+        <div class="popup__container">
+            <form class="form-container" name="popup-container">
+                <h3 class="popup__subtitle">Adding more products</h3>
+                <p class="popup__text-adding-products">The more items you check, the better the price.</p>
+                <label class="checkbox">
+                    <input type="radio" class="checkbox_invisible" name="adding-products">
+                    <span class="checkbox_visible checkbox_visible-focus">
+                        <div class="checkbox__button_acitve"></div>
+                        <div>
+                            <p class="checkbox__text">5 products for 80 usd / 16$ for each</p>
+                            <p class="checkbox__safe checkbox__safe_focus">You safe 36% on each patent check </p>
+                        </div>
+                    </span>
+                </label>
+                <label class="checkbox">
+                    <input type="radio" class="checkbox_invisible" name="adding-products">
+                    <span class="checkbox_visible">
+                        <div class="checkbox__button_inacitve"></div>
+                        <div>
+                            <p class="checkbox__text">4 products for 72 usd / 18$ for each</p>
+                            <p class="checkbox__safe">You safe 28% on each patent check</p>
+                        </div>
+                    </span>
+                </label>
+                <label class="checkbox">
+                    <input type="radio" class="checkbox_invisible" name="adding-products">
+                    <span class="checkbox_visible">
+                        <div class="checkbox__button_inacitve"></div>
+                        <div>
+                            <p class="checkbox__text">3 products for 60 usd / 20$ for each</p>
+                            <p class="checkbox__safe">You safe 20% on each patent check </p>
+                        </div>
+                    </span>
+                </label>
+                <label class="checkbox">
+                    <input type="radio" class="checkbox_invisible" name="adding-products">
+                    <span class="checkbox_visible">
+                        <div class="checkbox__button_inacitve"></div>
+                        <div>
+                            <p class="checkbox__text">2 products for 44 usd / 22$ for each</p>
+                            <p class="checkbox__safe">You safe 12% on each patent check </p>
+                        </div>
+                    </span>
+                </label>
+                <label class="checkbox">
+                    <input type="radio" class="checkbox_invisible" name="adding-products">
+                    <span class="checkbox_visible">
+                        <div class="checkbox__button_inacitve"></div>
+                        <div>
+                            <p class="checkbox__text">1 product for 24.99 usd</p>
+                            
+                        </div>
+                    </span>
+                </label>
+                <button class="popup__submit-button" type="submit">Continue</button>
+            </form>
+            
+        </div>
+
         </div>
     </section>
 

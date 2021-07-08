@@ -14,4 +14,15 @@
 @import url(./blocks/popup/__secure/popup__secure.css);
 @import url(./blocks/popup/__secure/_image/popup__secure_image.css);
 @import url(./blocks/popup/__secure/_text/popup__secure_text.css);
+@import url(./blocks/popup/__button-close/popup__button-close.css);
+@import url(./blocks/popup/__text-adding-products/popup__text-adding-products.css);
+@import url(./blocks/checkbox/checkbox.css);
+@import url(./blocks/checkbox/checkbox_invisible.css);
+@import url(./blocks/checkbox/checkbox_visible.css);
+@import url(./blocks/checkbox/__button/checkbox__button_active.css);
+@import url(./blocks/checkbox/__button/checkbox__button_inactive.css);
+@import url(./blocks/checkbox/__text/checkbox__text.css);
+@import url(./blocks/checkbox/__safe/checkbox__safe.css);
+@import url(./blocks/checkbox/__safe/checkbox__safe_focus.css);
+@import url(./blocks/checkbox/checkbox_visible-focus.css);
 
