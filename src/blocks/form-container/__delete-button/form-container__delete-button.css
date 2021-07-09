@@ -1,0 +1,15 @@
+.form-container__delete-button {
+    margin-left: 5px;
+    height: 13.05px;
+    width: 13px;
+    border: none;
+    background-image: url(../../../images/delete_product_button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.form-container__delete-button:hover {
+    opacity: 0.8;
+}

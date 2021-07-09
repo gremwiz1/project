@@ -9,3 +9,6 @@
     color: #1C154E;
     margin: 0 0 12px 0;
 }
+.form-container__title > .popup__subtitle {
+    margin-bottom: 0px;
+}

@@ -25,4 +25,7 @@
 @import url(./blocks/checkbox/__safe/checkbox__safe.css);
 @import url(./blocks/checkbox/__safe/checkbox__safe_focus.css);
 @import url(./blocks/checkbox/checkbox_visible-focus.css);
-
+@import url(./blocks/form-container/__title/form-container__title.css);
+@import url(./blocks/form-container/__delete-button/form-container__delete-button.css);
+@import url(./blocks/popup/__container/popup__container_scroll.css);
+@import url(./blocks/loader/loader.css);
