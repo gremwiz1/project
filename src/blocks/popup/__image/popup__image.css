@@ -1,0 +1,7 @@
+.popup__image {
+    width: 157px;
+    height: 122.49px;
+    margin: 22px auto 95.51px auto;
+    background-image: url(../../../images/successfull_payment.png);
+    background-position: center;
+}

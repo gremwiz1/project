@@ -1,4 +1,4 @@
-.popup__submit-button {
+.popup__submit-button-error {
     font-family: Gilroy, Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -10,13 +10,13 @@
     width: 370px;
     height: 45px;
     border-radius: 15px;
-    background: #23c967;
+    background: #ea717f;
     cursor: pointer;
     transition: 1s;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.popup__submit-button:hover {
-opacity: 0.8;
+.popup__submit-button-error:hover {
+    opacity: 0.8;
 }

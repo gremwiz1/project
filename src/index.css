@@ -29,3 +29,6 @@
 @import url(./blocks/form-container/__delete-button/form-container__delete-button.css);
 @import url(./blocks/popup/__container/popup__container_scroll.css);
 @import url(./blocks/loader/loader.css);
+@import url(./blocks/popup/__image/popup__image.css);
+@import url(./blocks/popup/__image-error/popup__image-error.css);
+@import url(./blocks/popup/__submit-button-error/popup__submit-button-error.css);

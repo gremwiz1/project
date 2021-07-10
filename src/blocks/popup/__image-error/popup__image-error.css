@@ -1,0 +1,7 @@
+.popup__image-error {
+    width: 310px;
+    height: 246px;
+    margin: -8px auto 36px auto;
+    background-image: url(../../../images/failed_payment.png);
+    background-position: center;
+}

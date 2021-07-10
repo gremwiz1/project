@@ -16,9 +16,9 @@
     <footer class="footer">
     </footer>
     <section class="popups">
-        <div class="popup popup_edit-info">
+        <div class="popup popup_opened popup_edit-info">
             <div class="popup__container">
-                <form class="form-container" name="popup-container">
+                <form class="form-container" id="form-info" name="popup-container">
                     <h3 class="popup__subtitle">Info</h3>
                     <p class="popup__label">Enter your email address</p>
                     <input class="popup__input" id="name-input" type="email" name="email"
@@ -34,24 +34,22 @@
                         <button type="button" class="popup__add-product_button"></button>
                     </div>
                     <p class="popup__discount">We offer discount up to 36% for multiple checks</p>
-                    <button class="popup__submit-button" type="submit">Submit and Pay 24.99 USD</button>
+                    <button class="popup__submit-button" id="button-submit-form-info" type="submit">Submit and Pay 24.99 USD</button>
                     <div class="popup__secure">
                         <div class="popup__secure_image"></div>
                         <p class="popup__secure_text">Secure payment with Stripe</p>
                     </div>
-
                 </form>
                 <button class="popup__button-close" type="button"></button>
-
             </div>
         </div>
         <div class="popup popup_adding-products">
             <div class="popup__container">
-                <form class="form-container" name="popup-container">
+                <form class="form-container" id="form-adding-products" name="popup-container" action="#">
                     <h3 class="popup__subtitle">Adding more products</h3>
                     <p class="popup__text-adding-products">The more items you check, the better the price.</p>
                     <label class="checkbox">
-                        <input type="radio" class="checkbox_invisible" name="adding-products">
+                        <input type="radio" class="checkbox_invisible" name="adding-products" id="5" checked>
                         <span class="checkbox_visible checkbox_visible-focus">
                             <div class="checkbox__button_acitve"></div>
                             <div>
@@ -61,7 +59,7 @@
                         </span>
                     </label>
                     <label class="checkbox">
-                        <input type="radio" class="checkbox_invisible" name="adding-products">
+                        <input type="radio" class="checkbox_invisible" id="4 " name="adding-products">
                         <span class="checkbox_visible">
                             <div class="checkbox__button_inacitve"></div>
                             <div>
@@ -71,7 +69,7 @@
                         </span>
                     </label>
                     <label class="checkbox">
-                        <input type="radio" class="checkbox_invisible" name="adding-products">
+                        <input type="radio" class="checkbox_invisible" id="3" name="adding-products">
                         <span class="checkbox_visible">
                             <div class="checkbox__button_inacitve"></div>
                             <div>
@@ -81,7 +79,7 @@
                         </span>
                     </label>
                     <label class="checkbox">
-                        <input type="radio" class="checkbox_invisible" name="adding-products">
+                        <input type="radio" class="checkbox_invisible" id="2" name="adding-products">
                         <span class="checkbox_visible">
                             <div class="checkbox__button_inacitve"></div>
                             <div>
@@ -91,81 +89,64 @@
                         </span>
                     </label>
                     <label class="checkbox">
-                        <input type="radio" class="checkbox_invisible" name="adding-products">
+                        <input type="radio" class="checkbox_invisible" id="1" name="adding-products">
                         <span class="checkbox_visible">
                             <div class="checkbox__button_inacitve"></div>
                             <div>
                                 <p class="checkbox__text">1 product for 24.99 usd</p>
-
                             </div>
                         </span>
                     </label>
                     <button class="popup__submit-button" type="submit">Continue</button>
                 </form>
-
             </div>
-
         </div>
-        <div class="popup popup_opened popup_submit-cart">
+        <div class="popup popup_submit-cart">
             <div class="popup__container">
-                <form class="form-container" name="popup-container">
+                <form class="form-container" id="form-cart" name="popup-container">
                     <div class="popup__container_scroll">
-                        <div class="form-container__title">
-                            <h3 class="popup__subtitle">Product 1</h3>
-                            <button class="form-container__delete-button"></button>
-                        </div>
-                        <p class="popup__label">Enter main keyword for the product</p>
-                        <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
-                            required>
-                        <p class="popup__label">Enter link to the similar product as a reference</p>
-                        <input class="popup__input" type="link" name="link" placeholder="https://..." required>
-                        <div class="form-container__title">
-                            <h3 class="popup__subtitle">Product 2</h3>
-                            <button class="form-container__delete-button"></button>
-                        </div>
-                        <p class="popup__label">Enter main keyword for the product</p>
-                        <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
-                            required>
-                        <p class="popup__label">Enter link to the similar product as a reference</p>
-                        <input class="popup__input" type="link" name="link" placeholder="https://..." required>
-                        <div class="form-container__title">
-                            <h3 class="popup__subtitle">Product 3</h3>
-                            <button class="form-container__delete-button"></button>
-                        </div>
-                        <p class="popup__label">Enter main keyword for the product</p>
-                        <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
-                            required>
-                        <p class="popup__label">Enter link to the similar product as a reference</p>
-                        <input class="popup__input" type="link" name="link" placeholder="https://..." required>
-                        <div class="form-container__title">
-                            <h3 class="popup__subtitle">Product 4</h3>
-                            <button class="form-container__delete-button"></button>
-                        </div>
-                        <p class="popup__label">Enter main keyword for the product</p>
-                        <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
-                            required>
-                        <p class="popup__label">Enter link to the similar product as a reference</p>
-                        <input class="popup__input" type="link" name="link" placeholder="https://..." required>
-                        <div class="form-container__title">
-                            <h3 class="popup__subtitle">Product 5</h3>
-                            <button class="form-container__delete-button"></button>
-                        </div>
-                        <p class="popup__label">Enter main keyword for the product</p>
-                        <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
-                            required>
-                        <p class="popup__label">Enter link to the similar product as a reference</p>
-                        <input class="popup__input" type="link" name="link" placeholder="https://..." required>
                     </div>
-                    
-                    
-                    <button class="popup__submit-button" type="submit"><div class="loader"></div></button>
+                    <button class="popup__submit-button" id="summa-cart" type="submit"></button>
                 </form>
 
             </div>
-
+        </div>
+        <div class="popup popup_payment-success">
+            <div class="popup__container">
+                <h3 class="popup__subtitle">Successfull payment</h3>
+                <p class="popup__label">Your request has been accepted and will be processed within 24 working hours. We
+                    will send you a payment details and all information to your email.</p>
+                <div class="popup__image"></div>
+                <button class="popup__submit-button" type="button">Back</button>
+            </div>
+        </div>
+        <div class="popup popup_payment-error">
+            <div class="popup__container">
+                <h3 class="popup__subtitle">Your payment failed</h3>
+                <p class="popup__label">Sorry, but we’ve having trouble processing your payment. You have been not
+                    charged for this transaction.</p>
+                <div class="popup__image-error"></div>
+                <button class="popup__submit-button-error" type="button">Try to pay again</button>
+            </div>
         </div>
     </section>
-
+    <template class="template">
+        <div class="card">
+            <div class="form-container__title">
+                <h3 class="popup__subtitle"></h3>
+                <button class="form-container__delete-button"></button>
+            </div>
+            <p class="popup__label">Enter main keyword for the product</p>
+            <input class="popup__input" type="text" name="product1" placeholder="for example, sylicon wine cup"
+                required>
+            <p class="popup__label">Enter link to the similar product as a reference</p>
+            <input class="popup__input" type="link" name="link" placeholder="https://..." required>
+        </div>
+    </template>
+    <template class="template-loader">
+        <div class="loader"></div>
+    </template>
+    <script src="../src/index.js"></script>
 </body>
 
 </html>
